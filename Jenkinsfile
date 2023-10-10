@@ -15,7 +15,7 @@ pipeline{
 		}
 		stage('3-unitest'){
 			steps{
-				sh 'actions3'
+				sh 'lscpu'
 			}
 		}
 	} 
