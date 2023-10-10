@@ -8,7 +8,7 @@ pipeline{
 		}
 		stage('2-artifactbuild'){
 			steps{
-				sh 'action2'
+				sh 'ls -a'
 			}
 		}
 		stage('3-unitest'){
